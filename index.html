@@ -2,39 +2,41 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Monospace Tester</title>
   <link rel="stylesheet" href="main.css">
 
 
 </head>
 <body>
+<!--nav-header is the heading and nav above hero-->
     <header>
-      <section>
-        <img/>
-        <nav>
-            <ul>
-              <li><a href="">Features</a></li>
-              <li><a href="">Pricing</a></li>
-              <li><a href="">Testimonials</a></li>
-              <li><a href="">Contact</a></li>
+      <section class="nav-header">
+        <img src="assets/monospace.svg" class="topLogo" alt="Monospace Image"><!--
+        --><nav class="navLineUp linkPosition">
+            <ul class="navLinkStyle">
+              <li><a href="#features">Features</a></li><!--
+              --><li><a href="#pricing">Pricing</a></li><!--
+              --><li><a href="#testimonials">Testimonials</a></li><!--
+              --><li><a href="#contact">Contact</a></li>
             </ul>
-        </nav>
-        <section>
-          <button name="log-in">Log In</button>
-          <button name="sign-up">Sign Up</button>
+        </nav><!--
+        --><section class="navLineUp buttonContainer">
+
+          <button name="log-in" class="headerLogInButton">LOG IN</button>
+          <button name="sign-up" class="headerSignUpButton">SIGN UP</button>
         </section>
       </section>
 
 <!-- need to add the hero wood paneling background to the section containing element
 right below-->
       <section class="hero">
-        <h1>The simplest way to provide customer support on social media.</h1>
-        <h2>Use Monospace to interact with your customers where they are.</h2>
-        <button>Start Free Trial</button>
+        <h1 class="heroHeaderLarge">The simplest way to provide customer support on social media.</h1>
+        <h2 class="heroHeaderSmall">Use Monospace to interact with your customers where they are.</h2>
+        <button name="Start Free Trial" class="heroButton">START FREE TRIAL</button>
 
 <!--need to add the img of the ui here. need to figure out how to make it push below the
   container element. Probably an absolute placement-->
-        <img src="" alt=""/>
+        <img src="assets/monospace@2x.jpg" class="heroAppImage" alt="Application Example Image">
 
       </section>
     </header>
@@ -44,11 +46,11 @@ right below-->
   http://stackoverflow.com/questions/4538447/how-to-create-two-columns-on-a-web-page
   this is col-1, col-2, col-3 for now
   -->
-      <section class="feature-container"
-        <section class="col-1">
+      <section id="features" class="featureContainer">
+        <section class="features-col-1">
 <!-- svg's need to be added for each section-->
-          <div>
-            <svg></svg>
+          <div class="alignDiv">
+            <img src="assets/icon-conversions.svg" alt="Customer Conversions" class="resizeImage">
             <h2>Customer conversions</h2>
             <p>
               "What sweatshirt is that in the photo?" "Will this coupon code work for X?"
@@ -56,50 +58,49 @@ right below-->
               Don't leave them hanging.
             </p>
           </div>
-          <div>
-            <svg></svg>
+          <div class="alignDiv">
+            <img src="assets/icon-filtering.svg" alt="Filtering" class="resizeImage">
             <h2>Advanced filtering</h2>
             <p>Sometimes finding customer comments that actually require a response is
               like searching for a needle in a haystack. We have 15 combinable search
               operators to sift through the noise.</p>
           </div>
-          <div>
-            <svg></svg>
-            <h2>Monitor</h2>
+          <div class="alignDiv">
+            <img src="assets/icon-monitoring.svg" alt="Monitoring Image" class="resizeImage">
+            <h2>Monitoring</h2>
             <p>
               Your customers won't always directly mention you when they're talking about you.
               Stay on top of keywords and phrases that are relevant to your brand - or your competitor's.
             </p>
           </div>
+        </section><!--
 
-        </section>
-        <section class="col-2">
-<!-- vertical line of just svg, example is in the assets file-->
-          <svg></svg>
-          <button name="view-all-features">
-            <a href="">View All Features</a>
-          </button>
+        --><section class="features-col-2">
+            <img src="assets/emoticons-blk.svg" alt="Emoticon list">
+            <button name="view-all-features" class="positionFeatureButton">
+              <a href="">View All Features</a>
+            </button>
+          </section><!--
 
-        </section>
-        <section class="col-3">
-          <div>
-            <svg></svg>
+        --><section class="features-col-3">
+          <div class="alignDiv">
+            <img src="assets/icon-analytics.svg" alt="Analytics Image" class="resizeImage">
             <h2>Support-driven analytics</h2>
             <p>
               Use real customer support metrics to improve the performance of your team.
               No more sifting through and skewing marketing reports to find actionable data for improvement.
             </p>
           </div>
-          <div>
-            <svg></svg>
+          <div class="alignDiv">
+            <img src="assets/icon-collaboration.svg" alt="Collaboration Image" class="resizeImage"></svg>
             <h2>Collaboration</h2>
             <p>
               Our "inbox zero" workflow combined with collision detection and assignments enables
               large teams to engage with customers without stepping on each other's toes or duplicating responses.
             </p>
           </div>
-          <div>
-            <svg></svg>
+          <div class="alignDiv">
+            <img src="assets/icon-networks.svg" alt="Networks Image" class="resizeImage">
             <h2>Multiple networks</h2>
             <p>
               Answer all types of messages and comments from Twitter, Facebook, and Instagram all in one simple-to-use interface.
@@ -108,19 +109,21 @@ right below-->
           </div>
         </section>
 
+
     </section>
-    <section class="pricing-container">
+    <section id="pricing" class="pricing-container">
+
 <!-- This section requires 2 columns, need to figure out how to space those-->
-      <section>
-          <table>
+      <section class="tableContainer">
+          <table class="tableStyle">
             <tr>
-              <th>
-                Space Station
+              <th class="headerStyle">
+                SPACE STATION
               </th>
             </tr>
             <tr>
               <td>
-                $149 Monthly
+                <span class="enlargeTableFont">$149</span> Monthly
               </td>
             </tr>
             <tr>
@@ -159,9 +162,9 @@ right below-->
             <em>Need something different?</em><br>
             <a href="">Get in touch</a>.
           </p>
-        </section>
+        </section><!--
 
-      <section>
+      --><section class="priceExplanation">
         <h2>
           Simple Pricing
         </h2>
@@ -177,21 +180,22 @@ right below-->
 
       </section>
 <!-- This section requires 4 columns, need to figure out how to space those-->
-      <section class="quote-container">
-        <section>
-          <div>
-            <p>
+      <section id="testimonials" class="testimonials-container">
+
+        <section class="col1-4 positQuoteSec1">
+          <div class="quote1">
+            <blockquote><p>
               "The chaos that we sometimes felt using other tools is gone,
               transformed into a logical layout that allows us to move step
               by step through what we need to accomplish."
-            </p>
+            </p></blockquote>
 
           </div>
-          <img src="" alt=""/>
+          <img src="assets/logo-aso@2x.jpg" alt="Aso Logo" class="extCompanyLogoSmall"/>
 
-        </section>
-        <section>
-          <div>
+        </section><!--
+        --><section class="col1-4 positQuoteSec2">
+          <div class="quote2-1">
             <p>
               "Monospace is the first social media tool we have used that really
               seems to understand the necessity of organization around social
@@ -199,25 +203,26 @@ right below-->
             </p>
 
           </div>
-          <div>
+          <div class="quote2-2">
             <p>
               "The Instagram functionality is a game changer. We were using three
               different tools to accomplish what Monospace does just for Instagram."
             </p>
 
           </div>
-          <img src="" alt=""/>
+          <img src="assets/logo-stussy@2x.jpg" alt="Stussy Logo"
+          class="extCompanyLogoSmall stussyLogoPosit"/>
 
-        </section>
-        <section>
-          <div>
+        </section><!--
+        --><section class="col1-4 positQuoteSec3">
+          <div class="quote3-1">
             <p>
               "Our whole team has been loving Monospace, and its definitely noticeable
               how much better were able to triage through customer issues."
             </p>
 
           </div>
-          <div>
+          <div class="quote3-2">
             <p>
               "The team has officially made the switch from HootSuite to Monospace full-time.
               We re really liking the quick and clean workflow - especially the mobile version
@@ -225,11 +230,12 @@ right below-->
             </p>
 
           </div>
-          <img src="" alt=""/>
+          <img src="assets/logo-flightclub@2x.jpg" alt="Flight Club Logo"
+          class="extCompanyLogoMed flightClubPosit"/>
 
-        </section>
-        <section>
-          <div>
+        </section><!--
+        --><section class="col1-4 positQuoteSec4">
+          <div class="quote4-1">
             <p>
               "Monospace allows us to maintain a 100% response rate for all inbound comments and
               questions. Messages would fall through the cracks when we d try to reply on their
@@ -237,39 +243,47 @@ right below-->
             </p>
 
           </div>
-          <img src="" alt=""/>
+          <img src="assets/logo-simple@2x.jpg" alt="Simple Logo"
+          class="extCompanyLogoMed simpleLogoPosit"/>
         </section>
       </section>
-      <section class="contact-form-container">
+      <section id="contact" class="contact-form-container">
+
 <!--Need to center align the form -->
         <form action="" method="post">
-          <label for="message-body">Hello, Monospace!</label>
-          <textarea name="message-body" id="message-body">Message</textarea>
-          <label for="email">Sincerely,</label>
-          <input type="email" id="email" name="email" placeholder="E-mail Address">
-          <input type="submit" name="submit" value="SEND MESSAGE"/>
+          <label for="message-body" class="blockFormElem labelFormFont">Hello, Monospace!</label>
+          <textarea name="message-body" id="message-body" class="blockFormElem textAreaResize">
+            Message</textarea>
+          <label for="email" class="blockFormElem labelFormEmailFont">Sincerely,</label>
+          <input type="email" id="email" name="email" class="blockFormElem emailAreaResize"
+          placeholder="E-mail Address">
+          <input type="submit" name="submit" class="blockFormElem"
+          value="SEND MESSAGE"/>
         </form>
 
       </section>
     </main>
     <footer>
+
 <!--need to place the monospace mascot at the footer line center align horizontal-->
 <!--need to include the svg footer background-->
-      <img src="" alt=""/>
+      <img src="assets/mono.svg" alt="Mono Mascot" class="monoMascotPosit">
       <section class="footer-container">
 
 <!--Center align the text and imgs as well-->
 <!--center align the black and white monospace logo-->
-        <img src="" alt=""/>
+        <img src="assets/monospace.svg" alt="Monospace Footer Logo"
+        class="monospaceFooterLogoReize"/>
         <p>
-          Made with <img svg/> in Santa Monica, California.
+          Made with <img src="assets/heart.svg" alt="Heart Icon"
+          class="heartIconResize"/>  in Santa Monica, California.
         </p>
 <!--img will be monospace logo in white and black -->
         <nav>
           <ul>
-            <li><a href="">Twitter<img svg/></a></li>
-            <li><a href="">Facebook<img svg/></a></li>
-            <li><a href="">Email<img svg/></a></li>
+            <li><a href="http://www.twitter.com"><img src="assets/twitter.svg" alt="Twitter Link Logo"></a></li>
+            <li><a href="http://www.facebook.com"><img src="assets/facebook3.svg" alt="Facebook Link Logo"></a></li>
+            <li><a href="mailto:email@gmail.com"><img src="assets/envelop.svg" alt="Email Link Logo"></a></li>
           </ul>
         </nav>
       </section>

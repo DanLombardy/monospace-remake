@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
   <meta charset="utf-8">
   <title>Monospace Tester</title>
-  <link rel="stylesheet" href="stylesheets/main.css">
+  <link rel="stylesheet" href="main.css">
 
 
 </head>
 <body>
-<!--Header Section-->
+<!--nav-header is the heading and nav above hero-->
     <header>
       <section class="nav-header">
         <img src="assets/monospace.svg" class="topLogo" alt="Monospace Image"><!--
@@ -26,18 +26,26 @@
           <button name="sign-up" class="headerSignUpButton">SIGN UP</button>
         </section>
       </section>
-<!--Hero Section-->
+
+<!-- need to add the hero wood paneling background to the section containing element
+right below-->
       <section class="hero">
         <h1 class="heroHeaderLarge">The simplest way to provide customer support on social media.</h1>
         <h2 class="heroHeaderSmall">Use Monospace to interact with your customers where they are.</h2>
         <button name="Start Free Trial" class="heroButton">START FREE TRIAL</button>
+
+<!--need to add the img of the ui here. need to figure out how to make it push below the
+  container element. Probably an absolute placement-->
         <img src="assets/monospace@2x.jpg" class="heroAppImage" alt="Application Example Image">
 
       </section>
     </header>
     <main>
 
-<!--Features Section -->
+<!--  look into this for how to make 3 columns
+  http://stackoverflow.com/questions/4538447/how-to-create-two-columns-on-a-web-page
+  this is col-1, col-2, col-3 for now
+  -->
       <section id="features" class="featureContainer">
         <section class="features-col-1">
 <!-- svg's need to be added for each section-->
@@ -100,10 +108,12 @@
             </p>
           </div>
         </section>
+
+
     </section>
     <section id="pricing" class="pricing-container">
 
-<!--Pricing Section-->
+<!-- This section requires 2 columns, need to figure out how to space those-->
       <section class="tableContainer">
           <table class="tableStyle">
             <tr>
@@ -169,9 +179,7 @@
       </section>
 
       </section>
-
-
-<!-- Testimonials/Quotes Sections-->
+<!-- This section requires 4 columns, need to figure out how to space those-->
       <section id="testimonials" class="testimonials-container">
 
         <section class="col1-4 positQuoteSec1">
@@ -241,7 +249,7 @@
       </section>
       <section id="contact" class="contact-form-container">
 
-<!--Form Section -->
+<!--Need to center align the form -->
         <form action="" method="post">
           <label for="message-body" class="blockFormElem labelFormFont">Hello, Monospace!</label>
           <textarea name="message-body" id="message-body" class="blockFormElem textAreaResize">
@@ -255,17 +263,22 @@
 
       </section>
     </main>
-
-<!--Footer Section-->
     <footer>
+
+<!--need to place the monospace mascot at the footer line center align horizontal-->
+<!--need to include the svg footer background-->
       <img src="assets/mono.svg" alt="Mono Mascot" class="monoMascotPosit">
       <section class="footer-container">
+
+<!--Center align the text and imgs as well-->
+<!--center align the black and white monospace logo-->
         <img src="assets/monospace.svg" alt="Monospace Footer Logo"
         class="monospaceFooterLogoReize"/>
         <p>
           Made with <img src="assets/heart.svg" alt="Heart Icon"
           class="heartIconResize"/>  in Santa Monica, California.
         </p>
+<!--img will be monospace logo in white and black -->
         <nav>
           <ul>
             <li><a href="http://www.twitter.com"><img src="assets/twitter.svg" alt="Twitter Link Logo"></a></li>

@@ -49,6 +49,8 @@ table {
 
 /*End of CSS Reset */
 
+/*Adding border-box to every element*/
+
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -73,104 +75,104 @@ body {
   padding-top: 20px;
 
 }
-nav li {
-  display: inline-block;
-  margin: 0 10px;
-}
+    .topLogo {
+      display: inline-block;
+      width: 225px;
+      position: absolute;
+      left: 100px;
+      top: 25px;
+    }
+    nav li {
+      display: inline-block;
+      margin: 0 10px;
+    }
 
-.navLineUp {
-  display: inline-block;
-  margin: 0 10px;
-  position: absolute;
-  right: 275px;
-  top: 25px;
-}
+    .navLineUp {
+      display: inline-block;
+      margin: 0 10px;
+      position: absolute;
+      right: 275px;
+      top: 25px;
+    }
 
 
-ul.navLinkStyle li a {
-  color: black;
-  text-decoration: none;
-}
+    ul.navLinkStyle li a {
+      color: black;
+      text-decoration: none;
+    }
 
-.buttonContainer {
-  position: absolute;
-  right: 125px;
-  top: 15px;
-}
+    .buttonContainer {
+      position: absolute;
+      right: 125px;
+      top: 15px;
+    } 
 
-.headerLogInButton{
-  color: gray;
-  height: 25px;
-  width: 70px;
-  background-color: white;
-}
+    .headerLogInButton{
+      color: gray;
+      height: 25px;
+      width: 70px;
+      background-color: white;
+    }
 
-.headerSignUpButton{
-  color: white;
-  height: 25px;
-  width: 70px;
-  background-color: lightblue;
-}
+    .headerSignUpButton{
+      color: white;
+      height: 25px;
+      width: 70px;
+      background-color: lightblue;
+    }
+    /*hero sub-section*/
+    .hero {
+      text-align: center;
+      background-image: url('assets/bg@2x.jpg');
+      width: 100%;
+      height: 650px;
+    }
 
-.hero {
-  text-align: center;
-  background-image: url('assets/bg@2x.jpg');
-  width: 100%;
-  height: 650px;
-}
+    .heroHeaderLarge {
+      font: sans-serif;
+      font-size: 2.13em;
+      color: #FFFFFF;
+      position: relative;
+      top: 100px;
+    }
 
-.heroHeaderLarge {
-  font: sans-serif;
-  font-size: 2.13em;
-  color: #FFFFFF;
-  position: relative;
-  top: 100px;
-}
+    .heroHeaderSmall {
+      font: sans-serif;
+      font-size: 1.6em;
+      color: #FFFFFF;
+      position: relative;
+      top: 120px;
+    }
 
-.heroHeaderSmall {
-  font: sans-serif;
-  font-size: 1.6em;
-  color: #FFFFFF;
-  position: relative;
-  top: 120px;
-}
+    .heroButton {
+      position: relative;
+      display: inline-block;
+      top: 150px;
+      background-color: #ffffff;
+      font-size: 1em;
+      text-transform: uppercase;
+      color: black;
+      text-decoration: none;
+      padding: 10px 25px 10px 25px;
+      -webkit-border-radius: 7;
+      -moz-border-radius: 7;
+      border-radius: 7px;
+      font-weight: bold;
+    }
 
-.heroButton {
-  position: relative;
-  display: inline-block;
-  top: 150px;
-  background-color: #ffffff;
-  font-size: 1em;
-  text-transform: uppercase;
-  color: black;
-  text-decoration: none;
-  padding: 10px 25px 10px 25px;
-  -webkit-border-radius: 7;
-  -moz-border-radius: 7;
-  border-radius: 7px;
-  font-weight: bold;
-}
+    .heroAppImage {
+      position: relative;
+      display: block;
+      height: 525px;
+      top: 225px;
+      align: center;
+      margin: 0 auto;
+      -webkit-box-shadow: 3px 13px 19px -1px rgba(0,0,0,0.49);
+      -moz-box-shadow: 3px 13px 19px -1px rgba(0,0,0,0.49);
+      box-shadow: 3px 13px 19px -1px rgba(0,0,0,0.49);
 
-.heroAppImage {
-  position: relative;
-  display: block;
-  height: 525px;
-  top: 225px;
-  align: center;
-  margin: 0 auto;
-  -webkit-box-shadow: 3px 13px 19px -1px rgba(0,0,0,0.49);
-  -moz-box-shadow: 3px 13px 19px -1px rgba(0,0,0,0.49);
-  box-shadow: 3px 13px 19px -1px rgba(0,0,0,0.49);
+    }
 
-}
-
-.topLogo {
-  display: inline-block;
-  width: 225px;
-  position: absolute;
-  left: 100px;
-  top: 25px;
-}
 
 /* Features */
 .featureContainer {
@@ -182,53 +184,53 @@ ul.navLinkStyle li a {
 
 }
 
+    .features-col-1 {
+      width: 400px;
+      display:inline-block;
+      margin: 0 100px;
+
+    }
+
+    .features-col-2 {
+      width: 100px;
+      position: relative;
+      top: 5px;
+      display:inline-block;
+
+    }
+
+    .features-col-3 {
+      width: 400px;
+      display:inline-block;
+      margin: 0 100px;
+
+    }
+
+    .alignDiv {
+      text-align: center;
+      margin: 100px 0;
+    }
+
+    .alignDiv h2 {
+      font-size: 1.25em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
 
 
-.features-col-1 {
-  width: 400px;
-  display:inline-block;
-  margin: 0 100px;
+    .resizeImage {
+      width: 76px;
+      height: 76px;
+    }
 
-}
+    .positionFeatureButton {
+      display:inline-block;
+      position: relative;
+      top: 10px;
+      left: -20px;
+    }
 
-.features-col-2 {
-  width: 100px;
-  position: relative;
-  top: 5px;
-  display:inline-block;
-
-}
-
-.features-col-3 {
-  width: 400px;
-  display:inline-block;
-  margin: 0 100px;
-
-}
-
-.alignDiv {
-  text-align: center;
-  margin: 100px 0;
-}
-
-.alignDiv h2 {
-  font-size: 1.25em;
-  font-weight: bold;
-  margin: 10px 0;
-}
-
-
-.resizeImage {
-  width: 76px;
-  height: 76px;
-}
-
-.positionFeatureButton {
-  display:inline-block;
-  position: relative;
-  top: 10px;
-  left: -20px;
-}
+/*Pricing Section*/
 
 .pricing-container {
   position: relative;
@@ -237,48 +239,48 @@ ul.navLinkStyle li a {
   margin: 0 auto;
 }
 
-.tableContainer {
-  display: inline-block;
-  left:300px;
-  position: relative;
-}
+    .tableContainer {
+      display: inline-block;
+      left:300px;
+      position: relative;
+    }
 
-.tableStyle {
-  border: 1px solid #999;
-  text-align: center;
-}
+    .tableStyle {
+      border: 1px solid #999;
+      text-align: center;
+    }
 
-.enlargeTableFont{
-  font-weight: bold;
-  font-size: 20px;
-  background-color: gray;
-  color: lightgray;
-}
+    .enlargeTableFont{
+      font-weight: bold;
+      font-size: 20px;
+      background-color: gray;
+      color: lightgray;
+    }
 
 
 
-td, th {
-  border: 1px solid #999;
-  padding: 0.5rem;
-  text-align: center;
-}
+    td, th {
+      border: 1px solid #999;
+      padding: 0.5rem;
+      text-align: center;
+    }
 
-.headerStyle{
-  background-image: url(assets/pricing@2x.jpg);
-  height: 100px;
-  color: white;
-  vertical-align: middle;
-  font-size: 20px;
-}
+    .headerStyle{
+      background-image: url(assets/pricing@2x.jpg);
+      height: 100px;
+      color: white;
+      vertical-align: middle;
+      font-size: 20px;
+    }
 
-.priceExplanation {
-  position: relative;
-  display: inline-block;
-  left: 350px;
-  top: -150px
-}
+    .priceExplanation {
+      position: relative;
+      display: inline-block;
+      left: 350px;
+      top: -150px
+    }
 
-/******* TESTIMONIALS ************/
+/******* TESTIMONIALS/Quotes ************/
 
 .testimonials-container {
   position: relative;
@@ -287,225 +289,227 @@ td, th {
   margin: 0 auto;
 }
 
-.col1-4{
-  width: 250px;
-  display: inline-block;
-  position: relative;
-}
+    .col1-4{
+      width: 250px;
+      display: inline-block;
+      position: relative;
+    }
 
-.positQuoteSec1 {
-  left: 170px;
-}
+    .positQuoteSec1 {
+      left: 170px;
+    }
 
-.quote1 {
-  position:relative;
-  width: 150px;
-  margin: 0px;
-  top: -75px;
-  padding: 15px;
-  color: #3D3D3D;
-  background:#F4F4F4;
-  border-radius: 15px;
-}
+    .quote1 {
+      position:relative;
+      width: 150px;
+      margin: 0px;
+      top: -75px;
+      padding: 15px;
+      color: #3D3D3D;
+      background:#F4F4F4;
+      border-radius: 15px;
+    }
 
-.quote1:after {
-  content:"";
-  position:absolute;
-  top:93%;
-  left:30px;
-  border-width:30px 30px 0 0;
-  border-style:solid;
-  border-color:#F4F4F4 transparent;
-  /* css3 extras */
-  -webkit-transform:skewX(50deg);
-  -moz-transform:skewX(50deg);
-  -ms-transform:skewX(50deg);
-  -o-transform:skewX(50deg);
-  transform:skewX(50deg);
-}
+    .quote1:after {
+      content:"";
+      position:absolute;
+      top:93%;
+      left:30px;
+      border-width:30px 30px 0 0;
+      border-style:solid;
+      border-color:#F4F4F4 transparent;
+      /* css3 extras */
+      -webkit-transform:skewX(50deg);
+      -moz-transform:skewX(50deg);
+      -ms-transform:skewX(50deg);
+      -o-transform:skewX(50deg);
+      transform:skewX(50deg);
+    }
 
-.positQuoteSec2 {
-  left: 90px;
-}
+    .positQuoteSec2 {
+      left: 90px;
+    }
 
-.quote2-1 {
-  position:relative;
-  top: -60px;
-  width: 250px;
-  padding: 15px;
-  margin-bottom: 50px;
-  color: #3D3D3D;
-  background:#F4F4F4;
-  border-radius: 15px;
-}
+    .quote2-1 {
+      position:relative;
+      top: -60px;
+      width: 250px;
+      padding: 15px;
+      margin-bottom: 50px;
+      color: #3D3D3D;
+      background:#F4F4F4;
+      border-radius: 15px;
+    }
 
-.quote2-1:after {
-  content:"";
-  position:absolute;
-  top:90%;
-  left:30px;
-  border-width:30px 30px 0 0;
-  border-style:solid;
-  border-color:#F4F4F4 transparent;
-  /* css3 extras */
-  -webkit-transform:skewX(50deg);
-  -moz-transform:skewX(50deg);
-  -ms-transform:skewX(50deg);
-  -o-transform:skewX(50deg);
-  transform:skewX(50deg);
-}
+    .quote2-1:after {
+      content:"";
+      position:absolute;
+      top:90%;
+      left:30px;
+      border-width:30px 30px 0 0;
+      border-style:solid;
+      border-color:#F4F4F4 transparent;
+      /* css3 extras */
+      -webkit-transform:skewX(50deg);
+      -moz-transform:skewX(50deg);
+      -ms-transform:skewX(50deg);
+      -o-transform:skewX(50deg);
+      transform:skewX(50deg);
+    }
 
-.quote2-2 {
-  position:relative;
-  top: -80px;
-  width: 280px;
-  padding: 15px;
-  color: #3D3D3D;
-  background:#F4F4F4;
-  border-radius: 15px;
-}
+    .quote2-2 {
+      position:relative;
+      top: -80px;
+      width: 280px;
+      padding: 15px;
+      color: #3D3D3D;
+      background:#F4F4F4;
+      border-radius: 15px;
+    }
 
-.quote2-2:after {
-  content:"";
-  position:absolute;
-  top:-2%;
-  right:25px;
-  border-width:30px 30px 0 0;
-  border-style:solid;
-  border-color:#F4F4F4 transparent;
-  /* css3 extras */
-  -webkit-transform:skewX(50deg);
-  -moz-transform:skewX(50deg);
-  -ms-transform:skewX(50deg);
-  -o-transform:skewX(50deg);
-  transform:skewX(50deg);
-  -webkit-transform:skewy(50deg);
-  -moz-transform:skewy(50deg);
-  -ms-transform:skewy(50deg);
-  -o-transform:skewy(50deg);
-  transform:skewy(50deg);
-}
+    .quote2-2:after {
+      content:"";
+      position:absolute;
+      top:-2%;
+      right:25px;
+      border-width:30px 30px 0 0;
+      border-style:solid;
+      border-color:#F4F4F4 transparent;
+      /* css3 extras */
+      -webkit-transform:skewX(50deg);
+      -moz-transform:skewX(50deg);
+      -ms-transform:skewX(50deg);
+      -o-transform:skewX(50deg);
+      transform:skewX(50deg);
+      -webkit-transform:skewy(50deg);
+      -moz-transform:skewy(50deg);
+      -ms-transform:skewy(50deg);
+      -o-transform:skewy(50deg);
+      transform:skewy(50deg);
+    }
 
+
+
+    .positQuoteSec3 {
+      left: 110px;
+    }
+
+    .quote3-1 {
+      position:relative;
+      top: -75px;
+      width: 250px;
+      margin-bottom: 25px;
+      padding: 15px;
+      color: #3D3D3D;
+      background:#F4F4F4;
+      border-radius: 15px;
+    }
+
+    .quote3-1:after {
+      content:"";
+      position:absolute;
+      top:88%;
+      left:30px;
+      border-width:30px 30px 0 0;
+      border-style:solid;
+      border-color:#F4F4F4 transparent;
+      /* css3 extras */
+      -webkit-transform:skewX(50deg);
+      -moz-transform:skewX(50deg);
+      -ms-transform:skewX(50deg);
+      -o-transform:skewX(50deg);
+      transform:skewX(50deg);
+    }
+
+    .quote3-2 {
+      position:relative;
+      top: -75px;
+      left: 25px;
+      width: 250px;
+      margin: 0px;
+      padding: 15px;
+      color: #3D3D3D;
+      background:#F4F4F4;
+      border-radius: 15px;
+    }
+
+    .quote3-2:after {
+      content:"";
+      position:absolute;
+      top:-2%;
+      right:25px;
+      border-width:30px 30px 0 0;
+      border-style:solid;
+      border-color:#F4F4F4 transparent;
+      /* css3 extras */
+      -webkit-transform:skewX(50deg);
+      -moz-transform:skewX(50deg);
+      -ms-transform:skewX(50deg);
+      -o-transform:skewX(50deg);
+      transform:skewX(50deg);
+      -webkit-transform:skewy(50deg);
+      -moz-transform:skewy(50deg);
+      -ms-transform:skewy(50deg);
+      -o-transform:skewy(50deg);
+      transform:skewy(50deg);
+    }
+
+    .positQuoteSec4 {
+      left: 150px;
+    }
+
+    .quote4-1 {
+      position:relative;
+      top: -120px;
+      width: 200px;
+      margin: 0px;
+      padding: 15px;
+      color: #3D3D3D;
+      background:#F4F4F4;
+      border-radius: 15px;
+    }
+
+    .quote4-1:after {
+      content:"";
+      position:absolute;
+      top:93%;
+      left:30px;
+      border-width:30px 30px 0 0;
+      border-style:solid;
+      border-color:#F4F4F4 transparent;
+      /* css3 extras */
+      -webkit-transform:skewX(50deg);
+      -moz-transform:skewX(50deg);
+      -ms-transform:skewX(50deg);
+      -o-transform:skewX(50deg);
+      transform:skewX(50deg);
+    }
+/* Positioning Logos*/
 .stussyLogoPosit {
   left: 50px;
   position: relative;
 }
 
-.positQuoteSec3 {
-  left: 110px;
-}
+    .flightClubPosit{
+      position: relative;
+      left: 50px;
+      top: -20px;
+    }
 
-.quote3-1 {
-  position:relative;
-  top: -75px;
-  width: 250px;
-  margin-bottom: 25px;
-  padding: 15px;
-  color: #3D3D3D;
-  background:#F4F4F4;
-  border-radius: 15px;
-}
+    .simpleLogoPosit {
+      position: relative;
+      left: 30px;
+    }
 
-.quote3-1:after {
-  content:"";
-  position:absolute;
-  top:88%;
-  left:30px;
-  border-width:30px 30px 0 0;
-  border-style:solid;
-  border-color:#F4F4F4 transparent;
-  /* css3 extras */
-  -webkit-transform:skewX(50deg);
-  -moz-transform:skewX(50deg);
-  -ms-transform:skewX(50deg);
-  -o-transform:skewX(50deg);
-  transform:skewX(50deg);
-}
+    .extCompanyLogoSmall{
+      width: 100px;
+    }
 
-.quote3-2 {
-  position:relative;
-  top: -75px;
-  left: 25px;
-  width: 250px;
-  margin: 0px;
-  padding: 15px;
-  color: #3D3D3D;
-  background:#F4F4F4;
-  border-radius: 15px;
-}
+    .extCompanyLogoMed{
+      width: 200px;
+    }
 
-.quote3-2:after {
-  content:"";
-  position:absolute;
-  top:-2%;
-  right:25px;
-  border-width:30px 30px 0 0;
-  border-style:solid;
-  border-color:#F4F4F4 transparent;
-  /* css3 extras */
-  -webkit-transform:skewX(50deg);
-  -moz-transform:skewX(50deg);
-  -ms-transform:skewX(50deg);
-  -o-transform:skewX(50deg);
-  transform:skewX(50deg);
-  -webkit-transform:skewy(50deg);
-  -moz-transform:skewy(50deg);
-  -ms-transform:skewy(50deg);
-  -o-transform:skewy(50deg);
-  transform:skewy(50deg);
-}
-
-.flightClubPosit{
-  position: relative;
-  left: 50px;
-  top: -20px;
-}
-
-.positQuoteSec4 {
-  left: 150px;
-}
-
-.quote4-1 {
-  position:relative;
-  top: -120px;
-  width: 200px;
-  margin: 0px;
-  padding: 15px;
-  color: #3D3D3D;
-  background:#F4F4F4;
-  border-radius: 15px;
-}
-
-.quote4-1:after {
-  content:"";
-  position:absolute;
-  top:93%;
-  left:30px;
-  border-width:30px 30px 0 0;
-  border-style:solid;
-  border-color:#F4F4F4 transparent;
-  /* css3 extras */
-  -webkit-transform:skewX(50deg);
-  -moz-transform:skewX(50deg);
-  -ms-transform:skewX(50deg);
-  -o-transform:skewX(50deg);
-  transform:skewX(50deg);
-}
-
-.simpleLogoPosit {
-  position: relative;
-  left: 30px;
-}
-
-.extCompanyLogoSmall{
-  width: 100px;
-}
-
-.extCompanyLogoMed{
-  width: 200px;
-}
-
-
+/*Contact Form*/
 .contact-form-container {
   position: relative;
   top: 400px;
@@ -516,30 +520,30 @@ td, th {
   align: center;
 }
 
-.blockFormElem{
-  display: block;
-  margin: 15px auto;
-}
+    .blockFormElem{
+      display: block;
+      margin: 15px auto;
+    }
 
-.labelFormFont {
-  font-size: 1.5em;
-  font-weight: bold;
-}
+    .labelFormFont {
+      font-size: 1.5em;
+      font-weight: bold;
+    }
 
-.labelFormEmailFont{
-  font-size: .75em;
-}
+    .labelFormEmailFont{
+      font-size: .75em;
+    }
 
-.textAreaResize {
-  width: 200px;
-  height: 125px;
-}
+    .textAreaResize {
+      width: 200px;
+      height: 125px;
+    }
 
-.emailAreaResize {
-  width: 200px;
-}
+    .emailAreaResize {
+      width: 200px;
+    }
 
-
+/* footer */
 
 footer{
   position: relative;
@@ -550,15 +554,15 @@ footer{
   height: 300px;
 }
 
-.monospaceFooterLogoReize{
-  width: 150px;
-}
+    .monospaceFooterLogoReize{
+      width: 150px;
+    }
 
-.monoMascotPosit{
-  position: relative;
-  top: -50px;
-}
+    .monoMascotPosit{
+      position: relative;
+      top: -50px;
+    }
 
-.heartIconResize{
-  width: 20px;
-}
+    .heartIconResize{
+      width: 20px;
+    }
